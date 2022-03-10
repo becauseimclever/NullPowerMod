@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Null")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Null.kicad_sym")(options "")(descr ""))
+)
