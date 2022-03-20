@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name "Null")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Null.kicad_sym")(options "")(descr ""))
   (lib (name "TPS61030PWP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS61030PWP/TPS61030PWP.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-03-19_03-31-40")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_MMUN2133LT1G (1)/KiCAD/2022-03-19_03-31-40/2022-03-19_03-31-40.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP15XW153J03RC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NCP15XW153J03RC.kicad_sym")(options "")(descr ""))
 )
