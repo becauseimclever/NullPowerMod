@@ -2,4 +2,5 @@
   (lib (name "TPS61030PWP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS61030PWP/TPS61030PWP.pretty")(options "")(descr ""))
   (lib (name "MMUN2133LT1G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_MMUN2133LT1G (1)/KiCAD/2022-03-19_03-31-40/footprints.pretty")(options "")(descr ""))
   (lib (name "Libraries")(type "KiCad")(uri "${KIPRJMOD}/Libraries/THRMC1005X55N.pretty")(options "")(descr ""))
+  (lib (name "VLC5045")(type "KiCad")(uri "${KIPRJMOD}/Libraries/VLC5045/VLC5045.pretty")(options "")(descr ""))
 )
