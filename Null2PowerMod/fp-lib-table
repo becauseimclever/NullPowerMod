@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name "TPS61030PWP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS61030PWP/TPS61030PWP.pretty")(options "")(descr ""))
-  (lib (name "MMUN2133LT1G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_MMUN2133LT1G (1)/KiCAD/2022-03-19_03-31-40/footprints.pretty")(options "")(descr ""))
-  (lib (name "Libraries")(type "KiCad")(uri "${KIPRJMOD}/Libraries/THRMC1005X55N.pretty")(options "")(descr ""))
-  (lib (name "VLC5045")(type "KiCad")(uri "${KIPRJMOD}/Libraries/VLC5045/VLC5045.pretty")(options "")(descr ""))
+  (lib (name "ul_MMUN2133LT1G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_MMUN2133LT1G/KiCAD/2022-03-24_03-55-11/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_TPS61030PWP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TPS61030PWP/KiCAD/2022-03-24_03-52-39/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_VLC5045T-330M")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_VLC5045T-330M/KiCAD/2022-03-24_03-57-27/footprints.pretty")(options "")(descr ""))
+  (lib (name "NCP15XW153J03RC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NCP15XW153J03RC")(options "")(descr ""))
 )
