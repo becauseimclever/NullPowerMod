@@ -1,0 +1,97 @@
+
+(rules PCB Null2PowerMod
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (app.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 17)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 152.4)
+    (clear 152.6)
+    (clear 76.2 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+  )
+  (padstack "Via[0-1]_685.8:330.2_um"
+    (shape
+      (circle F.Cu 685.8 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 685.8 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_685.8:330.2_um" "Via[0-1]_685.8:330.2_um" default
+  )
+  (via 
+    "Via[0-1]_685.8:330.2_um-kicad_default" "Via[0-1]_685.8:330.2_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_685.8:330.2_um-Power" "Via[0-1]_685.8:330.2_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_685.8:330.2_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_685.8:330.2_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_685.8:330.2_um-Power"
+  )
+  (class default
+    GND "Net-(C1-Pad1)" "Net-(CHRG/LBO1-Pad1)" /LB0 "Net-(R1-Pad2)" "unconnected-(CN1-PadA5)" "unconnected-(CN1-PadA6)" "Net-(R13-Pad1)"
+    "unconnected-(CN1-PadA7)" "unconnected-(CN1-PadA8)" /Enable "unconnected-(CN1-PadB5)" "Net-(J2-Pad3)" "unconnected-(CN1-PadB6)" "unconnected-(CN1-PadB7)" "unconnected-(CN1-PadB8)"
+    "unconnected-(CN1-PadS1)" "unconnected-(U1-Pad16)" "Net-(R3-Pad1)" "Net-(Done1-Pad1)" SW "Net-(R4-Pad2)" "Net-(LED1-Pad2)" "Net-(LED2-Pad2)"
+    "Net-(R6-Pad1)" "Net-(R7-Pad1)" "Net-(R9-Pad1)" "Net-(R10-Pad2)" "Net-(T1-Pad1)" "Net-(T1-Pad3)" "Net-(THERM1-Pad1)" "Net-(U2-Pad1)"
+    "unconnected-(U2-Pad6)" "Net-(R12-Pad1)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    VBUS +5V VLIPO
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 304.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

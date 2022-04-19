@@ -55,33 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|64590000|76790000|4d9965dd-d844-40b8-aeaf-f6d7342a25d7|eae143d8-8227-42bf-8347-e22b27f8ee89",
-        "clearance|65820000|75635000|4d9965dd-d844-40b8-aeaf-f6d7342a25d7|5ecd1630-0dc2-4c6d-9786-20c295efd4b1",
-        "clearance|65820000|77945000|4d9965dd-d844-40b8-aeaf-f6d7342a25d7|548d04d9-e9c1-46bb-a675-bbcfafcfeaaa",
-        "clearance|66440000|81855000|0c2d6772-605d-418a-b22a-00d8451c6824|1a1f6f17-3ae7-41b7-a359-8f6ef7f1edb7",
-        "clearance|66440000|83205000|20855bdc-116d-4eb2-b5ee-c8b9ebefaab0|d9d035e7-3f75-4e23-9588-e6e671c6883f",
-        "clearance|67050000|76790000|4d9965dd-d844-40b8-aeaf-f6d7342a25d7|9420a25d-54fd-48ee-ae32-76f15a3c26b4",
-        "clearance|67290000|81855000|1a1f6f17-3ae7-41b7-a359-8f6ef7f1edb7|b3b1ccd4-a657-4a3d-8691-5506574dc6a0",
-        "clearance|67290000|83205000|1f3cddaf-95c0-4656-86ed-ede4af4668c1|20855bdc-116d-4eb2-b5ee-c8b9ebefaab0",
-        "clearance|68140000|81855000|b3b1ccd4-a657-4a3d-8691-5506574dc6a0|93526a00-8e76-4a37-80f0-ab58fed2acf1",
-        "clearance|68140000|83205000|4eb307d7-b623-4fab-a691-2d5e0e4f3e37|1f3cddaf-95c0-4656-86ed-ede4af4668c1",
-        "clearance|68990000|81855000|93526a00-8e76-4a37-80f0-ab58fed2acf1|04e31334-0175-410a-bc85-8dd6228bea69",
-        "clearance|68990000|83205000|83f4e58e-8e79-43de-bccf-a6d767a186c1|4eb307d7-b623-4fab-a691-2d5e0e4f3e37",
-        "clearance|69840000|81855000|04e31334-0175-410a-bc85-8dd6228bea69|ce4dfc3f-e39b-48d7-a249-50b6350a749d",
-        "clearance|69840000|83205000|9ddc6d59-ea2f-4898-9e47-d7da9340f7bd|83f4e58e-8e79-43de-bccf-a6d767a186c1",
-        "clearance|70690000|81855000|ce4dfc3f-e39b-48d7-a249-50b6350a749d|a56d8c2a-492d-492f-986e-3a417d141175",
-        "clearance|70690000|83205000|e81930cd-ec3d-4f39-b139-4cba4f23d7a3|9ddc6d59-ea2f-4898-9e47-d7da9340f7bd",
-        "clearance|71540000|81855000|a56d8c2a-492d-492f-986e-3a417d141175|c840050b-0984-4d34-a907-cdee492863f2",
-        "clearance|71540000|83205000|3e8e671a-b23f-43f2-88cd-52eca1827721|e81930cd-ec3d-4f39-b139-4cba4f23d7a3",
-        "clearance|76930000|67805000|522f62b7-3aca-44cd-a042-6b3579229dfa|8c151c5d-a6ac-406b-93e1-1963bce18350",
-        "clearance|76930000|68880000|8c151c5d-a6ac-406b-93e1-1963bce18350|d766129b-246f-41e5-aa36-4ad53c9bb51f",
-        "clearance|76930000|69880000|d766129b-246f-41e5-aa36-4ad53c9bb51f|7787309e-4e28-4e08-a10a-577dbef7bc49",
-        "clearance|76930000|70880000|7787309e-4e28-4e08-a10a-577dbef7bc49|a2b9c207-0690-4084-b807-7cdc83a01d65",
-        "clearance|76930000|71880000|a2b9c207-0690-4084-b807-7cdc83a01d65|21933ffc-2310-49c9-a73b-fb8e54772b08",
-        "clearance|76930000|72880000|21933ffc-2310-49c9-a73b-fb8e54772b08|d210e53f-7a42-4daf-a1fe-1774b66c6d22",
-        "clearance|76930000|73880000|d210e53f-7a42-4daf-a1fe-1774b66c6d22|0dcd34f6-6d1f-4540-b1f2-ee86632d7704"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -427,7 +401,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "Null2PowerMod.dsn",
       "step": "",
       "vrml": ""
     },
